@@ -1,0 +1,1136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.full {
+    width: 90vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    margin-left: 5+1vw;
+}
+
+.left img {
+    width: 4vw;
+    height: 2vw;
+}
+
+.mid ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 2vw;
+}
+
+.mid ul li {
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
+.mid ul li:hover {
+    color: blue;
+}
+
+.right img {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+
+/*page1.css*/
+
+.first {
+    display: flex;
+    flex-direction: column;
+    height: 13vw;
+
+}
+
+.alertBox {
+    margin-left: 25vw;
+    margin-right: 25vw;
+    width: 50vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vh;
+    border: 1px solid seagreen;
+    border-radius: 10px;
+    position: relative;
+}
+
+.alertHead {
+    color: seagreen;
+    padding-top: 0vw;
+    margin-top: -2vw;
+    position: absolute;
+}
+
+.alertContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    padding-left: 1vw;
+    margin-top: 2vw;
+    font-family: "Inter", sans-serif;
+}
+
+.alertContent img {
+    width: 1vw;
+    height: 1vw;
+    margin-right: 2vw;
+    margin-bottom: 2.4vw;
+}
+
+.alertContent p {
+    padding-right: 4vw;
+    padding-left: 2vw;
+    margin-top: 0vw;
+    font-family: "Inter", sans-serif;
+}
+
+.refillcards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: absolute;
+    margin-top: 17vw;
+    margin-left: -38vw;
+    width: 42vw;
+}
+
+.refillhead {
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family: "Lora", sans-serif;
+}
+
+.refillcontent {
+    padding-right: 1vw;
+    font-size: 1vw;
+    font-family: "Inter", sans-serif;
+}
+
+
+/* page 1 end css */
+
+.page1foot {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 4vw;
+    align-items: center;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+}
+
+.leftpage1 p {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Lora", sans-serif;
+}
+
+
+.midpage1 {
+    position: relative;
+    width: 35%;
+}
+
+.bgimagee img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30vw;
+    z-index: 1;
+}
+
+.topimagee img {
+    position: absolute;
+    margin-top: -16vw;
+    margin-left: 12vw;
+    width: 250px;
+    z-index: 2;
+}
+
+
+
+
+.rightpage1 p {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Lora", sans-serif;
+}
+
+.stayfoot {
+    color: #18883E;
+}
+
+
+
+/* BelowImg css*/
+
+.fullbelowimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+    gap: 20vw;
+    width: 80vw;
+
+}
+
+
+
+
+.belowimgleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 23vw;
+}
+
+.belowimgleftpara1 {
+    font-size: 2.2vw;
+    font-weight: 500;
+}
+
+.belowimgleftpara2 {
+    font-size: 1vw;
+    font-weight: 400;
+
+}
+
+
+
+.fbelowimgright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 2vw;
+    margin-left: -25vw;
+    margin-bottom: 2vw;
+    font-size: 0.8vw;
+    background-color: white;
+}
+
+
+.iconone {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+
+}
+
+.iconone image {
+    width: 1vw;
+    height: 0.5vw;
+}
+
+
+.icontwo {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+}
+
+.icontwo image {
+    width: 1vw;
+    height: 0.5vw;
+}
+
+.iconthree {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+}
+
+.iconthree image {
+    width: 1vw;
+    height: 0.5vw;
+}
+
+.iconfour {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+}
+
+.iconfour image {
+    width: 1vw;
+    height: 0.5vw;
+}
+
+.iconfive {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+}
+
+.iconfive image {
+    width: 1vw;
+    height: 0.5vw;
+}
+
+.iconsix {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+}
+
+.iconsix image {
+    width: 1vw;
+    height: 0.5vw;
+}
+
+.iconseven {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+}
+
+.iconseven image {
+    width: 1vw;
+    height: 0.5vw;
+}
+
+.iconeight {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+}
+
+.iconeight image {
+    width: 1vw;
+    height: 0.5vw;
+}
+
+.endlinepage1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vw;
+    font-weight: 500;
+    font-size: 1.3vw;
+    height: 6vw;
+    width: 80vw;
+    margin-left: 10vw;
+    border-bottom: 1px solid grey;
+}
+
+
+
+/* FormSec css */
+
+.FullForm {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    font-size: 0.8vw;
+}
+
+.FullForm input {
+    border: 1px solid grey;
+    padding-left: 0.5vw;
+    height: 2vw;
+    border-radius: 30px;
+    font-size: 0.8vw;
+}
+
+.leftForm {
+    margin-right: -5vw;
+    margin-top: 2vw;
+}
+
+.Shipping {
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.Name {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    align-items: center;
+}
+
+.stateZip {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.ExpDate {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+
+.paymentp {
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+
+.businessname input {
+    width: 23vw;
+}
+
+.Adress input {
+    width: 23vw;
+}
+
+.AddSecondLine {
+    color: green;
+    text-decoration: underline;
+}
+
+.Email input {
+    width: 23vw;
+}
+
+.PhoneNo input {
+    width: 23vw;
+}
+
+.cardno input {
+    width: 23vw;
+}
+
+
+
+.rightForm {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-top: -4.5vw;
+    margin-left: -5vw;
+}
+
+.rightForm input {
+    height: 1.2vw;
+    width: 1.2vw;
+}
+
+.rightForm button {
+    background: linear-gradient(to right bottom, #168A3E, #2BCE8A);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    height: 3vw;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.payment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.label1 input {
+    width: 1.2vw;
+    height: 1.2vw;
+
+}
+
+.label2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.label1 input {
+    width: 1.2vw;
+    height: 1.2vw;
+
+}
+
+.radiowrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin-left: -4vw;
+
+}
+
+
+.monthplan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.annualplan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vw;
+    justify-content: space-around;
+}
+
+.discount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7vw;
+    border-bottom: 1px solid grey;
+}
+
+.shippingmethod {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid grey;
+}
+
+.shippingfee {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+    border-bottom: 0.5px solid grey;
+}
+
+.totalpayment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid grey;
+    margin-bottom: 2vw;
+}
+
+.moneyback {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+
+.termsandconditions {
+    color: #168A3E;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .full {
+        width: 80vh;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid grey;
+        font-family: "Inter", sans-serif;
+        margin-left: 15vh;
+        margin-bottom: 5vh;
+    }
+
+    .left img {
+        width: 14vh;
+        height: 7vh;
+    }
+
+    .mid ul {
+        display: none;
+    }
+
+
+    .right img {
+        width: 6vh;
+        height: 6vh;
+    }
+
+    /*page1.css*/
+    .first {
+        display: flex;
+        flex-direction: column;
+        height: 13vh;
+        margin-left: 5vh;
+
+    }
+
+    .alertBox {
+        width: 80vh;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vh;
+        border: 1px solid seagreen;
+        border-radius: 10px;
+        position: relative;
+
+    }
+
+    .alertHead {
+        color: seagreen;
+        padding-top: 0vw;
+        font-size: 2.5vh;
+        width: 80vh;
+        margin-left: 2vh;
+        margin-top: -2vh;
+
+    }
+
+    .alertContent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        padding-left: 1vw;
+        font-size: 1.6vh;
+        margin-top: 8vh;
+        width: 80vh;
+        font-family: "Inter", sans-serif;
+    }
+
+    .alertContent img {
+        width: 1vw;
+        height: 1vw;
+    }
+
+    .alertContent p {
+        padding-right: 4vw;
+        padding-left: 2vw;
+        margin-top: 0vw;
+        font-family: "Inter", sans-serif;
+    }
+
+    .refillcards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        position: absolute;
+        margin: 10vh;
+        margin-top: 40vh;
+        width: 80vh;
+    }
+
+    .refillhead {
+        font-size: 3vh;
+        font-weight: 500;
+        font-family: "Lora", sans-serif;
+    }
+
+    .refillcontent {
+        padding-right: 1vh;
+        font-size: 2vh;
+        font-family: "Inter", sans-serif;
+    }
+
+    /* page 1 end css */
+
+    .page1foot {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        margin-top: 20vh;
+        margin-left: 10vh;
+    }
+
+    .leftpage1 p {
+        width: 50vh;
+        margin-left: 53vh;
+        font-size: 7vh;
+        font-weight: 700;
+        font-family: "Lora", sans-serif;
+    }
+
+
+    .midpage1 {
+        position: relative;
+        width: 90%;
+    }
+
+    .bgimagee img {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 95vh;
+        height: 85vh;
+        z-index: 1;
+        margin-left: -5vh;
+    }
+
+    .topimagee img {
+        position: absolute;
+        width: 300px;
+        z-index: 2;
+        margin-top: -50vh;
+        margin-left: 30vh;
+    }
+
+
+
+
+    .rightpage1 p {
+        font-size: 7vh;
+        width: 60vh;
+        margin-left: 70vh;
+
+        font-weight: 700;
+        font-family: "Lora", sans-serif;
+    }
+
+    .stayfoot {
+        color: #18883E;
+    }
+
+
+
+    /* BelowImg css*/
+
+    .fullbelowimg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        gap: 20vw;
+        width: 80vw;
+        margin-left: 15vh;
+    }
+
+    .belowimgleft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 23vw;
+    }
+
+    .belowimgleftpara1 {
+        font-size: 5vh;
+        font-weight: 500;
+        width: 80vh;
+        margin-left: 59vh;
+    }
+
+    .belowimgleftpara2 {
+        font-size: 3vh;
+        font-weight: 400;
+        margin-left: 57vh;
+        width: 80vh;
+    }
+
+    .fbelowimgright {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 3vh;
+        margin-left: 60vh;
+        width: 80vh;
+        background-color: white;
+    }
+
+    .iconone {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        align-items: center;
+    }
+
+    .iconone image {
+        width: 1vw;
+        height: 0.5vw;
+    }
+
+
+    .icontwo {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        align-items: center;
+    }
+
+    .icontwo image {
+        width: 1vw;
+        height: 0.5vw;
+    }
+
+    .iconthree {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        align-items: center;
+    }
+
+    .iconthree image {
+        width: 1vw;
+        height: 0.5vw;
+    }
+
+    .iconfour {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        align-items: center;
+    }
+
+    .iconfour image {
+        width: 1vw;
+        height: 0.5vw;
+    }
+
+    .iconfive {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        align-items: center;
+    }
+
+    .iconfive image {
+        width: 1vw;
+        height: 0.5vw;
+    }
+
+    .iconsix {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        align-items: center;
+    }
+
+    .iconsix image {
+        width: 1vw;
+        height: 0.5vw;
+    }
+
+    .iconseven {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        align-items: center;
+    }
+
+    .iconseven image {
+        width: 1vw;
+        height: 0.5vw;
+    }
+
+    .iconeight {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5vw;
+        align-items: center;
+    }
+
+    .iconeight image {
+        width: 1vw;
+        height: 0.5vw;
+    }
+
+    .endlinepage1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2vh;
+        margin-left: 15vh;
+        font-weight: 500;
+        font-size: 3vh;
+        height: 16vh;
+        width: 80vh;
+        border-bottom: 1px solid grey;
+    }
+
+
+
+    /* FormSec css */
+
+    .FullForm {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20vh;
+        width: 80vh;
+        margin-bottom: 20vh;
+        font-size: 4vh;
+        padding-left: 15vh;
+    }
+
+    .FullForm input {
+        border: 1px solid grey;
+        padding-left: 3vh;
+        height: 10vh;
+        width: 50vh;
+        border-radius: 30px;
+        font-size: 4vh;
+
+        ;
+    }
+
+    .leftForm {
+        margin-right: 0vw;
+        margin-top: 0vw;
+    }
+
+    .Shipping {
+        font-size: 5vh;
+        font-weight: 700;
+    }
+
+    .Name {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        align-items: flex-start;
+    }
+
+    .Name input {
+        width: 80vh;
+    }
+
+    .stateZip {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    .stateZip input {
+        width: 80vh;
+    }
+
+    .ExpDate {
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+
+    .paymentp {
+        font-size: 5vh;
+        font-weight: 700;
+    }
+
+    .payment input {
+        width: 5vh;
+    }
+
+    .businessname input {
+        width: 80vh;
+    }
+
+    .Adress input {
+        width: 80vh;
+    }
+
+    .AddSecondLine {
+        color: green;
+        text-decoration: underline;
+    }
+
+    .Email input {
+        width: 80vh;
+    }
+
+    .PhoneNo input {
+        width: 80vh;
+    }
+
+    .cardno input {
+        width: 80vh;
+    }
+
+
+
+    .rightForm {
+        display: flex;
+        flex-direction: column;
+        width: 80vh;
+    }
+
+    .rightForm input {
+        height: 5vh;
+        width: 5vh;
+    }
+
+    .rightForm button {
+        background: linear-gradient(to right bottom, #168A3E, #2BCE8A);
+        border: none;
+        color: white;
+        border-radius: 20px;
+        height: 14vh;
+        font-size: 30px;
+        font-family: "Inter", sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+    }
+
+    .payment {
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+    }
+
+    .label1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .label1 input {
+        width: 5vh;
+        height: 5vh;
+
+    }
+
+    .label2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .label2 input {
+        width: 5vh;
+        height: 5vh;
+
+    }
+
+
+
+    .radiowrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1vw;
+
+    }
+
+
+    .monthplan {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .annualplan {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5vw;
+        justify-content: flex-start;
+    }
+
+    .discount {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30vh;
+        border-bottom: 1px solid grey;
+    }
+
+    .shippingmethod {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 0.5px solid grey;
+    }
+
+    .shippingfee {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1vh;
+        border-bottom: 0.5px solid grey;
+    }
+
+    .totalpayment {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 0.5px solid grey;
+        margin-bottom: 5vh;
+    }
+
+    .rightForm img {
+        width: 4vh;
+        height: 5vh;
+    }
+
+    .moneyback {
+        font-size: 4vh;
+        font-weight: 500;
+    }
+
+
+    .termsandconditions {
+        color: #168A3E;
+    }
+
+
+}

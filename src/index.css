@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (max-width: 768px) {
+  .px-8 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .px-8 {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 }
