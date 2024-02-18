@@ -127,9 +127,10 @@
 .page1foot {
     display: flex;
     flex-direction: row;
-    width: 80vw;
+    width: 100vw;
     gap: 4vw;
-    align-items: flex-start;
+    align-items: center;
+    margin-left: 10vw;
     margin-top: 5vw;
     margin-bottom: 2vw;
 }
@@ -137,7 +138,6 @@
 .leftpage1 p {
     font-size: 30px;
     font-weight: 700;
-    padding-left: 7vh;
     font-family: "Lora", sans-serif;
 }
 
@@ -149,16 +149,17 @@
 
 .bgimagee img {
     position: relative;
-    margin-left: 20vw;
-    width: 80vw;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 30vw;
     z-index: 1;
 }
 
 .topimagee img {
     position: absolute;
-    margin-top: -12vw;
-    margin-left: 30vw;
+    margin-top: -16vw;
+    margin-left: 12vw;
     width: 250px;
     z-index: 2;
 }
@@ -169,14 +170,12 @@
 .rightpage1 p {
     font-size: 30px;
     font-weight: 700;
-    padding-left: 7vh;
     font-family: "Lora", sans-serif;
 }
 
 .stayfoot {
     color: #18883E;
 }
-
 
 
 /* BelowImg css*/
@@ -188,7 +187,7 @@
     align-items: center;
     margin-top: 2vw;
     margin-bottom: 2vw;
-    margin-left: 0vw;
+    margin-left: 5vw;
     gap: 20vw;
     width: 80vw;
 
@@ -224,7 +223,6 @@
     justify-content: center;
     align-items: flex-start;
     margin-top: 2vw;
-    margin-left: -18vw;
     margin-bottom: 2vw;
     font-size: 0.8vw;
     background-color: white;
