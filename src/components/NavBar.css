@@ -564,9 +564,9 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .full {
-        width: 80vh;
+        width: 80vw;
         height: 10vh;
         display: flex;
         flex-direction: row;
@@ -574,13 +574,13 @@
         align-items: center;
         border-bottom: 1px solid grey;
         font-family: "Inter", sans-serif;
-        margin-left: 15vh;
+
         margin-bottom: 5vh;
     }
 
     .left img {
-        width: 14vh;
-        height: 7vh;
+        width: 20vw;
+        height: 5vh;
     }
 
     .mid ul {
@@ -589,30 +589,28 @@
 
 
     .right img {
-        width: 6vh;
-        height: 6vh;
+        width: 10vw;
+        height: 4vh;
     }
 
     /*page1.css*/
     .first {
         display: flex;
         flex-direction: column;
-        height: 13vh;
-        margin-left: 5vh;
-
+        height: 30vh;
     }
 
     .alertBox {
-        width: 80vh;
-        height: 35vh;
+        width: 80vw;
+        height: 21vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.5vh;
+        justify-content: left;
+        align-items: space-around;
+        font-size: 1.5vw;
         border: 1px solid seagreen;
         border-radius: 10px;
-        position: relative;
+        margin-left: 0;
 
     }
 
@@ -620,9 +618,9 @@
         color: seagreen;
         padding-top: 0vw;
         font-size: 2.5vh;
-        width: 80vh;
-        margin-left: 2vh;
-        margin-top: -2vh;
+        width: 80vw;
+        padding-top: 1vh;
+        padding-left: 1vh;
 
     }
 
@@ -630,11 +628,11 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        position: absolute;
+        justify-content: flex-start;
         padding-left: 1vw;
         font-size: 1.6vh;
-        margin-top: 8vh;
-        width: 80vh;
+        padding-top: 10vh;
+        width: 80vw;
         font-family: "Inter", sans-serif;
     }
 
@@ -654,22 +652,26 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: flex-start;
-        position: absolute;
-        margin: 10vh;
-        margin-top: 40vh;
-        width: 80vh;
+        align-items: center;
+        position: relative;
+        margin-top: 10vh;
+        width: 80vw;
+        height: 20vh;
+        margin-left: 1vh;
+        margin-top: 20vh;
     }
 
     .refillhead {
-        font-size: 3vh;
+        font-size: 6vw;
         font-weight: 500;
+        margin-left: -1vh;
         font-family: "Lora", sans-serif;
     }
 
     .refillcontent {
         padding-right: 1vh;
-        font-size: 2vh;
+        margin-left: 1vh;
+        font-size: 4vw;
         font-family: "Inter", sans-serif;
     }
 
@@ -679,51 +681,48 @@
         display: flex;
         flex-direction: column;
         width: 100vw;
-        align-items: center;
-        margin-top: 20vh;
-        margin-left: 10vh;
+        align-items: flex-start;
+        margin-top: 10vh;
     }
 
     .leftpage1 p {
-        width: 50vh;
-        margin-left: 53vh;
-        font-size: 7vh;
+        width: 50vw;
+        font-size: 7vw;
         font-weight: 700;
+        margin-left: 2vh;
         font-family: "Lora", sans-serif;
     }
 
 
     .midpage1 {
         position: relative;
-        width: 90%;
+        width: 90vw;
     }
 
     .bgimagee img {
         position: relative;
         top: 0;
         left: 0;
-        width: 95vh;
-        height: 85vh;
+        width: 95vw;
+        height: 85vw;
         z-index: 1;
-        margin-left: -5vh;
+        margin-left: -9.5vh;
     }
 
     .topimagee img {
         position: absolute;
-        width: 300px;
+        width: 137px;
         z-index: 2;
-        margin-top: -50vh;
-        margin-left: 30vh;
+        margin-top: -47vw;
     }
 
 
 
 
     .rightpage1 p {
-        font-size: 7vh;
-        width: 60vh;
-        margin-left: 70vh;
-
+        font-size: 7vw;
+        width: 50vw;
+        margin-left: 2vh;
         font-weight: 700;
         font-family: "Lora", sans-serif;
     }
@@ -745,7 +744,8 @@
         margin-bottom: 2vw;
         gap: 20vw;
         width: 80vw;
-        margin-left: 15vh;
+        margin-left: -0.5vh;
+
     }
 
     .belowimgleft {
@@ -753,31 +753,30 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 23vw;
+        width: 25vw;
+
     }
 
     .belowimgleftpara1 {
-        font-size: 5vh;
+        font-size: 10vw;
         font-weight: 500;
-        width: 80vh;
-        margin-left: 59vh;
+        width: 80vw;
     }
 
     .belowimgleftpara2 {
-        font-size: 3vh;
+        font-size: 6vw;
         font-weight: 400;
-        margin-left: 57vh;
-        width: 80vh;
+        width: 80vw;
     }
 
     .fbelowimgright {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
-        font-size: 3vh;
-        margin-left: 60vh;
-        width: 80vh;
+        align-items: center;
+        padding-left: 10vh;
+        font-size: 5vw;
+        width: 80vw;
         background-color: white;
     }
 
@@ -881,14 +880,14 @@
     .endlinepage1 {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         margin-top: 2vh;
-        margin-left: 15vh;
+        margin-left: -2vh;
         font-weight: 500;
-        font-size: 3vh;
+        font-size: 3.5vw;
         height: 16vh;
-        width: 80vh;
+        width: 80vw;
         border-bottom: 1px solid grey;
     }
 
@@ -899,25 +898,22 @@
     .FullForm {
         display: flex;
         flex-direction: column;
-
         justify-content: space-around;
         align-items: center;
-        margin-top: 20vh;
-        width: 80vh;
+        margin-top: 5vh;
+        margin-left: 0;
+        width: 80vw;
         margin-bottom: 20vh;
-        font-size: 4vh;
-        padding-left: 15vh;
+        font-size: 6vw;
     }
 
     .FullForm input {
         border: 1px solid grey;
-        padding-left: 3vh;
-        height: 10vh;
-        width: 50vh;
+        padding-left: 3vw;
+        height: 5vh;
+        width: 80vw;
         border-radius: 30px;
-        font-size: 4vh;
-
-        ;
+        font-size: 4vw;
     }
 
     .leftForm {
@@ -926,7 +922,7 @@
     }
 
     .Shipping {
-        font-size: 5vh;
+        font-size: 7vw;
         font-weight: 700;
     }
 
@@ -938,7 +934,7 @@
     }
 
     .Name input {
-        width: 80vh;
+        width: 80vw;
     }
 
     .stateZip {
@@ -948,7 +944,7 @@
     }
 
     .stateZip input {
-        width: 80vh;
+        width: 80vw;
     }
 
     .ExpDate {
@@ -964,15 +960,15 @@
     }
 
     .payment input {
-        width: 5vh;
+        width: 5svw;
     }
 
     .businessname input {
-        width: 80vh;
+        width: 80vw;
     }
 
     .Adress input {
-        width: 80vh;
+        width: 80vw;
     }
 
     .AddSecondLine {
@@ -981,15 +977,15 @@
     }
 
     .Email input {
-        width: 80vh;
+        width: 80vw;
     }
 
     .PhoneNo input {
-        width: 80vh;
+        width: 80vw;
     }
 
     .cardno input {
-        width: 80vh;
+        width: 80vw;
     }
 
 
@@ -997,12 +993,12 @@
     .rightForm {
         display: flex;
         flex-direction: column;
-        width: 80vh;
+        width: 80vw;
     }
 
     .rightForm input {
         height: 5vh;
-        width: 5vh;
+        width: 5vw;
     }
 
     .rightForm button {
@@ -1010,8 +1006,8 @@
         border: none;
         color: white;
         border-radius: 20px;
-        height: 14vh;
-        font-size: 30px;
+        height: 10vh;
+        font-size: 7vw;
         font-family: "Inter", sans-serif;
         display: flex;
         flex-direction: row;
@@ -1037,8 +1033,8 @@
     }
 
     .label1 input {
-        width: 5vh;
-        height: 5vh;
+        width: 3vh;
+        height: 3vh;
 
     }
 
@@ -1050,8 +1046,8 @@
     }
 
     .label2 input {
-        width: 5vh;
-        height: 5vh;
+        width: 3vh;
+        height: 3vh;
 
     }
 
@@ -1071,6 +1067,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        gap: 3vh;
         justify-content: flex-start;
     }
 
@@ -1078,7 +1075,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 0.5vw;
+        gap: 3vh;
         justify-content: flex-start;
     }
 
@@ -1087,7 +1084,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-        gap: 30vh;
+        gap: 5vw;
         border-bottom: 1px solid grey;
     }
 
