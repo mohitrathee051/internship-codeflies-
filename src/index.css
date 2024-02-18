@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 
 }
 
@@ -23,9 +24,6 @@ code {
 
 @media screen and (min-width: 640px) {
   .px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    overflow-x: hidden;
     display: flex;
     justify-content: center;
   }
