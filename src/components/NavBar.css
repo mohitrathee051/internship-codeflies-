@@ -129,7 +129,7 @@
     flex-direction: row;
     width: 100vw;
     gap: 4vw;
-    align-items: center;
+    align-items: flex-start;
     margin-left: 10vw;
     margin-top: 5vw;
     margin-bottom: 2vw;
@@ -224,7 +224,6 @@
     justify-content: center;
     align-items: flex-start;
     margin-top: 2vw;
-    margin-left: -25vw;
     margin-bottom: 2vw;
     font-size: 0.8vw;
     background-color: white;
