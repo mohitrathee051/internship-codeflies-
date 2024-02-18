@@ -127,7 +127,7 @@
 .page1foot {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 80vw;
     gap: 4vw;
     align-items: flex-start;
     margin-top: 5vw;
@@ -149,16 +149,15 @@
 
 .bgimagee img {
     position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
+    margin-left: 20vw;
+    width: 80vw;
     height: 30vw;
     z-index: 1;
 }
 
 .topimagee img {
     position: absolute;
-    margin-top: -16vw;
+    margin-top: -12vw;
     margin-left: 30vw;
     width: 250px;
     z-index: 2;
@@ -704,17 +703,18 @@
         position: relative;
         top: 0;
         left: 0;
-        width: 95vw;
-        height: 85vw;
+        width: 85vw;
+        height: 75vw;
         z-index: 1;
-        margin-left: 0vh;
+        margin-left: -3vh;
     }
 
     .topimagee img {
         position: absolute;
         width: 137px;
         z-index: 2;
-        margin-top: -47vw;
+        margin-top: -44vw;
+        margin-left: 20vw;
     }
 
 
