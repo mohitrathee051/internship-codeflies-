@@ -679,7 +679,7 @@
         display: flex;
         flex-direction: column;
         width: 100vw;
-        align-items: space-around;
+        align-items: flex-start;
         margin-top: 10vh;
     }
 
@@ -701,18 +701,17 @@
         position: relative;
         top: 0;
         left: 0;
-        width: 85vw;
-        height: 75vw;
+        width: 95vw;
+        height: 85vw;
         z-index: 1;
-        margin-left: -3vh;
+        margin-left: -9.5vh;
     }
 
     .topimagee img {
         position: absolute;
         width: 137px;
         z-index: 2;
-        margin-top: -44vw;
-        margin-left: 20vw;
+        margin-top: -47vw;
     }
 
 
@@ -730,8 +729,6 @@
         color: #18883E;
     }
 
-
-
     /* BelowImg css*/
 
     .fullbelowimg {
@@ -743,7 +740,6 @@
         margin-bottom: 2vw;
         gap: 20vw;
         width: 80vw;
-        margin-left: -0.5vh;
 
     }
 
@@ -773,7 +769,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-left: 10vh;
         font-size: 5vw;
         width: 80vw;
         background-color: white;
