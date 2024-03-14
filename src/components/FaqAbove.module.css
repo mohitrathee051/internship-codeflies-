@@ -8,6 +8,7 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 5vw;
+    margin-bottom: 9vw;
 }
 
 .imgFaqAbove {
@@ -131,4 +132,23 @@
     margin-left: -2vw;
     margin-top: -2vw;
     color: rgba(24, 136, 62, 1);
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10vw;
+    margin-top: -12vw;
+    margin-bottom: 5vw;
+    z-index: 20;
+    font-size: 18px;
+    ;
+}
+
+.controls button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
 }
