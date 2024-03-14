@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+.full {
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    margin-left: -2vw;
+}
+
+.left img {
+    width: 4vw;
+    height: 2vw;
+}
+
+.mid ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 3vw;
+}
+
+.mid ul li {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #586A5E;
+    font-family: "Inter", sans-serif;
+}
+
+.mid ul li:hover {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+.right img {
+    width: 20.92px;
+    height: 24px;
+}

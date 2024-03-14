@@ -1,21 +1,21 @@
 import React from 'react'
 import faqaboveimg from '../assets/faqaboveimg.png'
 import faqabovebg from '../assets/faqabovebg.png'
-import './Footer.css'
+import styles from './FaqAbove.module.css'
 
 function FaqAbove() {
     return (
-        <div className='Faqabove'>
-            <div className="imgFaqAbove">
-                <div className="topimgabove">
+        <div className={styles.Faqabove}>
+            <div className={styles.imgFaqAbove}>
+                <div className={styles.topimgabove}>
                     <img src={faqaboveimg} alt="" />
                 </div>
-                <div className="bgimgabove">
+                <div className={styles.bgimgabove}>
                     <img src={faqabovebg} alt="" />
                 </div>
             </div>
-            <div className="rightFaqabove">
-                <div className="toprightfaqabove">
+            <div className={styles.rightFaqabove}>
+                <div className={styles.toprightfaqabove}>
                     <h3>Join
                         <span>
                             8,000 business
@@ -28,12 +28,12 @@ function FaqAbove() {
                         Morbi faucibus odio nunc, egestas nec sit rutrum suscipit.
                     </p>
                 </div>
-                <div className="bottomrightfaqabove">
+                <div className={styles.bottomrightfaqabove}>
                     <p>
                         “ Morbi quam pellentesque blandit tellus duis placerat pellentesque ultrices. Risus pulvinar enim, id in morbi tortor elementum aliquam! ”
                     </p>
-                    <div className="namefaqabove">
-                        <div className="Namee">
+                    <div className={styles.namefaqabove}>
+                        <div className={styles.Namee}>
                             <h6>
                                 - Ahmad Dokidis
                             </h6>
@@ -41,9 +41,13 @@ function FaqAbove() {
                                 FLORIST’S OWNER
                             </p>
                         </div>
-                        <p>
-                            &lt; 1/4 &gt;
-                        </p>
+                        <div>
+                            <span>&lt;</span>
+                            <span>1/3</span>
+                            <span>&gt;</span>
+
+                        </div>
+
                     </div>
                 </div>
             </div>

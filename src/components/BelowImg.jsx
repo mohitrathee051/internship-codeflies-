@@ -8,61 +8,62 @@ import icon5 from '../assets/icon5.png'
 import icon6 from '../assets/icon6.png'
 import icon7 from '../assets/icon7.png'
 import icon8 from '../assets/icon8.png'
-import './NavBar.css'
+import styles from './BelowImg.module.css';
 
 
 function Belowimg() {
     return (
-        <div className="bottomimgpage1">
-            <div className="fullbelowimg">
-                <div className="belowimgleft">
-                    <p className='belowimgleftpara1'>Everything you’ll need to grow your review count as quickly as possible</p>
-                    <p className='belowimgleftpara2'>If for any reason you are not completely satisfied with the number of reviews you get, we’ll refund your money in full.</p>
+        <div className={styles.bottomimgpage1}>
+            <div className={styles.fullbelowimg}>
+                <div className={styles.belowimgleft}>
+                    <p className={styles.belowimgleftpara1}>Everything you’ll need to grow your review count as quickly as possible</p>
+                    <div class={styles.line}></div>
+                    <p className={styles.belowimgleftpara2}>If for any reason you are not completely satisfied with the number of reviews you get, we’ll refund your money in full.</p>
                 </div>
-                <div className="fbelowimgright">
-                    <div className="iconone">
+                <div className={styles.fbelowimgright}>
+                    <div className={styles.iconone}>
                         <img src={icon1} alt="icon1" />
                         <p>2000 Starter cards in your chosen style</p>
                         <img src={iicon} alt="iicon" />
                     </div>
-                    <div className="icontwo">
+                    <div className={styles.icontwo}>
                         <img src={icon2} alt="icon2" />
                         <p>Unlimited customer visits to your review portal</p>
                         <img src={iicon} alt="iicon" />
                     </div>
-                    <div className="iconthree">
+                    <div className={styles.iconthree}>
                         <img src={icon3} alt="icon3" />
                         <p>Unlimited free card refills (text REFILL to 900900)</p>
                         <img src={iicon} alt="iicon" />
                     </div>
-                    <div className="iconfour">
+                    <div className={styles.iconfour}>
                         <img src={icon4} alt="icon4" />
-                        <p>Unlimited access to our customer support team</p>
+                        <p>Dedicated QR code for your business</p>
                         <img src={iicon} alt="iicon" />
                     </div>
-                    <div className="iconfive">
+                    <div className={styles.iconfive}>
                         <img src={icon5} alt="icon5" />
-                        <p>Unlimited access to our customer support team</p>
+                        <p>Negative review blocking technology</p>
                         <img src={iicon} alt="iicon" />
                     </div>
-                    <div className="iconsix">
+                    <div className={styles.iconsix}>
                         <img src={icon6} alt="icon6" />
-                        <p>Unlimited access to our customer support team</p>
+                        <p>Change the review site linked to your cards at any time</p>
                         <img src={iicon} alt="iicon" />
                     </div>
-                    <div className="iconseven">
+                    <div className={styles.iconseven}>
                         <img src={icon7} alt="icon7" />
-                        <p>Unlimited access to our customer support team</p>
+                        <p>Dedicated phone & email support</p>
                         <img src={iicon} alt="iicon" />
                     </div>
-                    <div className="iconeight">
+                    <div className={styles.iconeight}>
                         <img src={icon8} alt="icon8" />
-                        <p>Unlimited access to our customer support team</p>
+                        <p>Cancel anytime</p>
                         <img src={iicon} alt="iicon" />
                     </div>
                 </div>
             </div>
-            <div className="endlinepage1">
+            <div className={styles.endlinepage1}>
                 <p>Still have questions? Call us at 800 - 845 - 8928</p>
             </div>
         </div>

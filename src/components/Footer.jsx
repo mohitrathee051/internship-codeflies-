@@ -1,21 +1,21 @@
 import React from 'react'
 import logo from '../assets/logo.png'
 import FooterIcons from '../assets/FooterIcons.png'
-import './Footer.css'
+import styles from './Footer.module.css'
 
 
 function Footer() {
     return (
-        <div className='Footer'>
-            <div className="FooterTop">
-                <div className="TopLeftFooter">
+        <div className={styles.Footer}>
+            <div className={styles.FooterTop}>
+                <div className={styles.TopLeftFooter}>
                     <img src={logo} alt="" />
                     <p>
                         Money Back Guarantee is valid for up to 30 days after the purchase of a new plan. Guarantee does not apply for businesses that have received a demo kit or have previously tried The Review Card services.
                     </p>
                 </div>
-                <div className="Righty">
-                    <div className="TopMidFooter">
+                <div className={styles.Righty}>
+                    <div className={styles.TopMidFooter}>
                         <p>
                             Contact Us
                         </p>
@@ -23,14 +23,14 @@ function Footer() {
                             17 State Street, Suite 4000,<br />
                             New York, NY 10004
                         </p>
-                        <p className='EmailID'>
+                        <p className={styles.EmailID}>
                             hello@thereviewcard.com
                         </p>
                         <p>
                             (929) 276-1937
                         </p>
                     </div>
-                    <div className="TopRightFooter">
+                    <div className={styles.TopRightFooter}>
                         <p>
                             NEED HELP?
                         </p>
@@ -44,7 +44,7 @@ function Footer() {
                 </div>
 
             </div>
-            <div className="FooterBottom">
+            <div className={styles.FooterBottom}>
                 <p>© 2020 - 2021 The Review Card. All Rights Reserved</p>
                 <img src={FooterIcons} alt="" />
             </div>

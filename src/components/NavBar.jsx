@@ -1,15 +1,15 @@
 import React from 'react';
 import Logo from '../assets/logo.png';
 import cart from '../assets/cart.png';
-import './NavBar.css';
+import styles from './Navbar.module.css';
 
 function Navbar() {
     return (
-        <div className="full">
-            <div className="left">
+        <div className={styles.full}>
+            <div className={styles.left}>
                 <img src={Logo} alt="Logo" />
             </div>
-            <div className="mid">
+            <div className={styles.mid}>
                 <ul>
                     <li>HOME</li>
                     <li>ABOUT</li>
@@ -18,7 +18,7 @@ function Navbar() {
                     <li>CONTACT</li>
                 </ul>
             </div>
-            <div className="right">
+            <div className={styles.right}>
                 <img src={cart} alt="cart" />
             </div>
         </div>
